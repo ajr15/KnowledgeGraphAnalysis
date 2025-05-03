@@ -1,2 +1,5 @@
-tree,num_nodes,depth,num_keywords,keyword_relevance,alternative_wordings
+tree,num_nodes,depth,avg_keywords,avg_keyword_relevance,avg_alternative_wordings
+trapped ions,17,6,13.0,2.9530516431924885,2.018099547511312
+superconducting circuits,23,5,12.608695652173912,3.0802919708029197,2.013793103448276
+photonic quantum computing,12,4,13.5,2.826923076923077,1.8024691358024691
 auvs,11,3,14.0,2.9675324675324677,2.3376623376623376

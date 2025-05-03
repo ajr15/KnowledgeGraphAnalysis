@@ -1,3 +1,4 @@
+import os
 import networkx as nx
 from matplotlib import pyplot as plt
 from typing import List
@@ -47,7 +48,7 @@ def visualize_tree(tree: List[TreeNode], node_size: float=5000, max_score: float
     sm = plt.cm.ScalarMappable(cmap="coolwarm", norm=plt.Normalize(vmin=min_score, vmax=max_score))
     
     # draw the network edges
-    nx.draw_networkx_nodes(G, pos, node_size=node_size, node_shape="o", node_color=scores, cmap=sm.cmap)
+    nx.draw_networkx_nodes(G, pos, node_size=node_size, node_shape="o", node_color=scores, cmap=sm.cmap, vmin=min_score, vmax=max_score)
     nx.draw_networkx_edges(G, pos, node_size=node_size, node_shape="o", arrows=True)
 
     labels = {}
@@ -79,7 +80,7 @@ def visualize_tree(tree: List[TreeNode], node_size: float=5000, max_score: float
     plt.axis("off")
 
 if __name__ == "__main__": 
-    tree_files = ["data/auvs_IL.json", "data/auvs_IR.json", "data/auvs_TR.json"]
+    tree_files = [os.path.join("data", fname) for fname in os.listdir("data") if "auv" not in fname]
     trees = []
     scores = []
     for tree_file in tree_files:
@@ -90,7 +91,8 @@ if __name__ == "__main__":
         scores += [node.score for node in tree]
     max_score = max(scores)
     min_score = min(scores)
-    for i, tree in enumerate(trees):        
-        plt.figure(figsize=(12, 8))
+    for i, tree in enumerate(trees):
+        print(tree_files[i])    
+        plt.figure(figsize=(16, 8))
         visualize_tree(tree, node_size=5000, max_score=max_score, min_score=min_score)
         plt.savefig(f"results/trees/{tree_files[i][5:-5]}.png", format="png", dpi=300)

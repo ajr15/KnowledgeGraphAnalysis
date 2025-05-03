@@ -3,6 +3,7 @@
 
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
+import os
 from objects import TreeNode, load_tree
 
 def visualize_keywords_as_wordcloud(node: TreeNode):
@@ -15,7 +16,10 @@ def visualize_keywords_as_wordcloud(node: TreeNode):
     """
     # Assuming tree_node.keywords is a dictionary with keywords as keys and relevance as values
     # Adjust weights based on relevance (1 most important -> higher weight)
-    weights = {kw.name: 6 - float(kw.relevance) for kw in node.keywords}
+    weights = {kw.name: 6 - float(kw.relevance) for kw in node.keywords if kw.relevance != "---"}
+    if len(weights) == 0:
+        print(f"No keywords found for node: {node.title}")
+        return
     # Generate the word cloud with custom colormap and font
     wordcloud = WordCloud(
         width=800, 
@@ -32,10 +36,14 @@ def visualize_keywords_as_wordcloud(node: TreeNode):
     plt.axis('off')
 
 if __name__ == "__main__":
-    fname = "data/auvs_IL.json"
-    tree = load_tree(fname)
-    for node in tree:
-        plt.figure()
-        visualize_keywords_as_wordcloud(node)
-        plt.savefig("results/" + node.title + ".png")
-        plt.close()
+    fnames = ["data/auvs_IL.json", "data/photonic_quantum_computing_IL.json", "data/superconducting_circuits_IL.json", "data/trapped_ions_IL.json"]
+    for fname in fnames:
+        treename = fname.split("/")[-1].split(".")[0]
+        if not os.path.exists("results/wordcloud/" + treename):
+            os.mkdir("results/wordcloud/" + treename)
+        tree = load_tree(fname)
+        for node in tree:
+            plt.figure()
+            visualize_keywords_as_wordcloud(node)
+            plt.savefig("results/wordcloud/" + treename + "/" + node.title + ".png")
+            plt.close()

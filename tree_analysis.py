@@ -50,7 +50,7 @@ def tree_properties(tree_file) -> dict:
     num_nodes = len(tree)
     depth = calculate_tree_depth(tree)
     num_keywords = np.mean([len(node.keywords) for node in tree])
-    keyword_relevance = np.mean([int(kw.relevance) for node in tree for kw in node.keywords])
+    keyword_relevance = np.mean([int(kw.relevance) for node in tree for kw in node.keywords if not kw.relevance == "---"])
     alternative_wordings = np.mean([len(kw.alternative_wording) for node in tree for kw in node.keywords])
 
     # Append to summary
