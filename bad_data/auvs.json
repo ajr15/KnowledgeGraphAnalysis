@@ -1,0 +1,1411 @@
+{
+    "root": {
+        "title": "Long-Range Autonomous AUVs",
+        "description": "Development of complex products like long-range autonomous AUVs require expertise outside the company's core capabilities.",
+        "kwds": [
+            {
+                "keyword": "Autonomous Underwater Vehicles",
+                "relevance": "1",
+                "alternative_wording": [
+                    "Autonomous Submarines",
+                    "Underwater Robots"
+                ]
+            },
+            {
+                "keyword": "AUV Navigation Systems",
+                "relevance": "2",
+                "alternative_wording": [
+                    "Subsea Navigation",
+                    "Autonomous Vehicle Guidance"
+                ]
+            },
+            {
+                "keyword": "Long-Range Propulsion Systems",
+                "relevance": "3",
+                "alternative_wording": [
+                    "Endurance AUVs",
+                    "Long-Duration Autonomous Vehicles"
+                ]
+            },
+            {
+                "keyword": "Sensor Suite Integration",
+                "relevance": "4",
+                "alternative_wording": [
+                    "Multi-Sensor Fusion",
+                    "Sensor Package Development"
+                ]
+            },
+            {
+                "keyword": "Advanced Sonar Technology",
+                "relevance": "5",
+                "alternative_wording": [
+                    "High-Frequency Sonar",
+                    "Synthetic Aperture Sonar"
+                ]
+            },
+            {
+                "keyword": "Underwater Communication Networks",
+                "relevance": "1",
+                "alternative_wording": [
+                    "Acoustic Communication",
+                    "Seafloor Communication Systems"
+                ]
+            },
+            {
+                "keyword": "Artificial Intelligence in AUVs",
+                "relevance": "2",
+                "alternative_wording": [
+                    "Machine Learning for AUVs",
+                    "Autonomous Decision Making"
+                ]
+            },
+            {
+                "keyword": "Marine Robotics Engineering",
+                "relevance": "3",
+                "alternative_wording": [
+                    "Underwater Robotics",
+                    "AUV System Design"
+                ]
+            },
+            {
+                "keyword": "Acoustic Detection and Tracking",
+                "relevance": "4",
+                "alternative_wording": [
+                    "PASSIVE Sonar",
+                    "Active Sonar Systems"
+                ]
+            },
+            {
+                "keyword": "Hydrodynamic Vehicle Design",
+                "relevance": "5",
+                "alternative_wording": [
+                    "AUV Hull Design",
+                    "Fluid Dynamics Simulation "
+                ]
+            },
+            {
+                "keyword": "Battery Power Management",
+                "relevance": "1",
+                "alternative_wording": [
+                    "Energy Harvesting for AUVs",
+                    "Power Optimization Techniques"
+                ]
+            },
+            {
+                "keyword": "Seabed Mapping and Surveyance",
+                "relevance": "2",
+                "alternative_wording": [
+                    "Bathymetric Mapping",
+                    "Geophysical Surveys"
+                ]
+            },
+            {
+                "keyword": "Glider-Based AUVs",
+                "relevance": "3",
+                "alternative_wording": [
+                    "Winged AUVs",
+                    "Hybrid AUV Designs"
+                ]
+            },
+            {
+                "keyword": "Swarm Intelligence for AUVs",
+                "relevance": "4",
+                "alternative_wording": [
+                    "Autonomous Vehicle Coordination",
+                    "Distributed Control Systems"
+                ]
+            },
+            {
+                "keyword": "Fault Tolerant System Design",
+                "relevance": "5",
+                "alternative_wording": [
+                    "Reliability Engineering for AUVs",
+                    "Failure Mode Analysis"
+                ]
+            }
+        ]
+    },
+    "leafs": [
+        {
+            "title": "Navigation & Control Systems",
+            "description": "Knowledge required for navigating and controlling the AUV in real-time, including sensor integration, software, and hardware.",
+            "parents": [
+                "Autonomous Systems",
+                "Underwater Robotics"
+            ],
+            "kwds": [
+                {
+                    "keyword": "AUV Navigation",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "underwater vehicle control",
+                        " autonomous underwater navigation"
+                    ]
+                },
+                {
+                    "keyword": "Sensor Integration",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "sensor fusion",
+                        " sensor systems",
+                        " data integration"
+                    ]
+                },
+                {
+                    "keyword": "Real-Time Control",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "real-time systems",
+                        " control algorithms",
+                        " feedback control"
+                    ]
+                },
+                {
+                    "keyword": "Autonomous Systems",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "self-driving systems",
+                        " unmanned vehicles",
+                        " robotic systems"
+                    ]
+                },
+                {
+                    "keyword": "Underwater Robotics",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "submarine robotics",
+                        " oceanic robots",
+                        " marine robotics"
+                    ]
+                },
+                {
+                    "keyword": "Kalman Filter",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "sensor filtering",
+                        " state estimation",
+                        " navigation algorithms"
+                    ]
+                },
+                {
+                    "keyword": "Control Theory",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "control engineering",
+                        " system dynamics",
+                        " stability analysis"
+                    ]
+                },
+                {
+                    "keyword": "Inertial Measurement",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "imu sensors",
+                        " inertial navigation",
+                        " motion sensing"
+                    ]
+                },
+                {
+                    "keyword": "Software Development",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "programming languages",
+                        " software engineering",
+                        " code development"
+                    ]
+                },
+                {
+                    "keyword": "Embedded Systems",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "microcontrollers",
+                        " embedded computing",
+                        " real-time operating systems"
+                    ]
+                },
+                {
+                    "keyword": "Machine Learning",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "artificial intelligence",
+                        " neural networks",
+                        " predictive modeling"
+                    ]
+                },
+                {
+                    "keyword": "Sensor Calibration",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "sensor accuracy",
+                        " sensor validation",
+                        " measurement uncertainty"
+                    ]
+                },
+                {
+                    "keyword": "Navigation Algorithms",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "route planning",
+                        " trajectory planning",
+                        " motion planning "
+                    ]
+                },
+                {
+                    "keyword": "Acoustic Sensors",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "sonar sensors",
+                        " underwater sensing",
+                        " acoustic navigation"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Communication Systems",
+            "description": "Development of communication protocols, antennas, transceivers, and data transmission techniques for underwater or satellite-based connectivity.",
+            "parents": [
+                "Autonomous Systems",
+                "Underwater Robotics"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Acoustic Modems",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "underwater communication devices",
+                        " subsea modems"
+                    ]
+                },
+                {
+                    "keyword": "Satellite Transponders",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "satcom transceivers",
+                        " space-based repeaters"
+                    ]
+                },
+                {
+                    "keyword": "OFDM Techniques",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "orthogonal frequency division multiplexing",
+                        " multicarrier modulation"
+                    ]
+                },
+                {
+                    "keyword": "Underwater Antennas",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "submarine antennas",
+                        " hydroacoustic antennas"
+                    ]
+                },
+                {
+                    "keyword": "Transceiver Architectures",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "radio frequency transceivers",
+                        " baseband processing"
+                    ]
+                },
+                {
+                    "keyword": "Error Correction Codes",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "forward error correction",
+                        " channel coding schemes"
+                    ]
+                },
+                {
+                    "keyword": "Signal Propagation Models",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "channel modeling",
+                        " wave propagation simulations"
+                    ]
+                },
+                {
+                    "keyword": "Modulation Schemes",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "signal modulation techniques",
+                        " waveform design"
+                    ]
+                },
+                {
+                    "keyword": "Network Protocol Design",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "communication protocol development",
+                        " network architecture"
+                    ]
+                },
+                {
+                    "keyword": "Channel Capacity Analysis",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "information theory",
+                        " Shannon capacity calculations"
+                    ]
+                },
+                {
+                    "keyword": "Subsea Wireless Networks",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "underwater wireless sensor networks",
+                        " oceanic communication systems "
+                    ]
+                },
+                {
+                    "keyword": "Radio Frequency Systems",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "wireless communication systems",
+                        " microwave engineering"
+                    ]
+                },
+                {
+                    "keyword": "Digital Signal Processing",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "signal processing techniques",
+                        " filtering algorithms "
+                    ]
+                },
+                {
+                    "keyword": "Satellite Constellations",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "space-based satellite systems",
+                        " satellite swarms "
+                    ]
+                },
+                {
+                    "keyword": "Underwater Sensor Networks",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "subsea sensor networks",
+                        " ocean floor monitoring systems"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sensors & Perception",
+            "description": "Acquisition, processing, and interpretation of sensor data from various sources such as sonar, lidar, radar, and cameras for navigation, obstacle detection, and environmental sensing.",
+            "parents": [
+                "Autonomous Systems",
+                "Underwater Robotics"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Sensor Fusion",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Sensor Integration",
+                        "Data Fusion",
+                        "Multisensor Fusion"
+                    ]
+                },
+                {
+                    "keyword": "Sonar Imaging",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Acoustic Imaging",
+                        "Sound Navigation",
+                        "Underwater Sonar"
+                    ]
+                },
+                {
+                    "keyword": "Lidar Processing",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Laser Radar",
+                        "Ladar",
+                        "Optical Radar"
+                    ]
+                },
+                {
+                    "keyword": "Radar Signal Processing",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Radar Data Processing",
+                        "Radar Information Processing"
+                    ]
+                },
+                {
+                    "keyword": "Computer Vision",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Image Processing",
+                        "Machine Vision",
+                        "Visual Perception"
+                    ]
+                },
+                {
+                    "keyword": "Obstacle Detection",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Barrier Detection",
+                        "Hazard Detection",
+                        "Collision Avoidance"
+                    ]
+                },
+                {
+                    "keyword": "Environmental Sensing",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Ambient Sensing",
+                        "Context Awareness",
+                        "Situational Awareness"
+                    ]
+                },
+                {
+                    "keyword": "Navigation Systems",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Route Planning",
+                        "Localization",
+                        "Mapping"
+                    ]
+                },
+                {
+                    "keyword": "Underwater Sensing",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Submerged Sensing",
+                        "Aquatic Sensing",
+                        "Hydroacoustic Sensing"
+                    ]
+                },
+                {
+                    "keyword": "Data Interpretation",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Information Extraction",
+                        "Knowledge Discovery",
+                        "Pattern Recognition"
+                    ]
+                },
+                {
+                    "keyword": "Sensor Calibration",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Sensor Alignment",
+                        "Sensor Registration",
+                        "Sensor Synchronization"
+                    ]
+                },
+                {
+                    "keyword": "Machine Learning",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Predictive Modeling",
+                        "Artificial Intelligence",
+                        "Deep Learning "
+                    ]
+                },
+                {
+                    "keyword": "Multimodal Perception",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Fusion of Sensors",
+                        "Multiple Sensor Integration",
+                        "Hybrid Sensing"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Power & Energy",
+            "description": "Design, development, and management of power sources and energy storage systems for long-duration underwater operations, including battery technology and charging systems.",
+            "parents": [
+                "Electrical Engineering",
+                "Materials Science"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Underwater Energy Storage",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Subsea Power Systems",
+                        " Oceanic Energy Solutions"
+                    ]
+                },
+                {
+                    "keyword": "Power Source Design",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Energy Generation Systems",
+                        " Power Supply Architecture"
+                    ]
+                },
+                {
+                    "keyword": "Long-Duration Batteries",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "High-Capacity Battery Technology",
+                        " Prolonged Power Cells"
+                    ]
+                },
+                {
+                    "keyword": "Charging System Development",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Power Replenishment Methods",
+                        " Energy Recharging Techniques"
+                    ]
+                },
+                {
+                    "keyword": "Electrochemical Energy Storage",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Battery Electrochemistry",
+                        " Electrochemical Power Systems"
+                    ]
+                },
+                {
+                    "keyword": "Subsea Power Transmission",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Underwater Power Distribution",
+                        " Submarine Energy Transfer"
+                    ]
+                },
+                {
+                    "keyword": "Advanced Battery Materials",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "High-Performance Battery Components",
+                        " Innovative Cell Materials"
+                    ]
+                },
+                {
+                    "keyword": "Energy Harvesting Systems",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Power Scavenging Technologies",
+                        " Ambient Energy Collection"
+                    ]
+                },
+                {
+                    "keyword": "Thermal Energy Storage",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Heat Storage Systems",
+                        " Thermal Battery Technology"
+                    ]
+                },
+                {
+                    "keyword": "Oceanic Power Generation",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Sea-Based Energy Production",
+                        " Marine Renewable Energy"
+                    ]
+                },
+                {
+                    "keyword": "Underwater Charging Systems",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Wet-Mateable Connectors",
+                        " Subsea Power Replenishment"
+                    ]
+                },
+                {
+                    "keyword": "Electrical Power Management",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Power Distribution Systems",
+                        " Electrical Energy Control"
+                    ]
+                },
+                {
+                    "keyword": "Energy Efficiency Optimization",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Prolonged Power Conservation",
+                        " Energy Savings Techniques"
+                    ]
+                },
+                {
+                    "keyword": "Battery Lifetime Extension",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Cell Durability Enhancement",
+                        " Prolonged Battery Longevity "
+                    ]
+                },
+                {
+                    "keyword": "Power Electronics Design",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Electrical Power Conversion",
+                        " Power Processing Architecture "
+                    ]
+                },
+                {
+                    "keyword": "Underwater Renewable Energy",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Subsea Solar Power",
+                        " Oceanic Wind Energy Harvesting"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Underwater Construction & Materials",
+            "description": "Knowledge of materials science, corrosion protection, and manufacturing techniques for the production of durable components such as hulls, propellers, and sensors for long-range AUVs.",
+            "parents": [
+                "Mechanical Engineering",
+                "Materials Science"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Subsea Materials",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Underwater Construction",
+                        "Offshore Materials",
+                        "Marine Equipment"
+                    ]
+                },
+                {
+                    "keyword": "Corrosion Protection",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Anti-Corrosion Coatings",
+                        "Cathodic Protection",
+                        "Erosion Resistance"
+                    ]
+                },
+                {
+                    "keyword": "AUV Hull Design",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Autonomous Underwater Vehicle",
+                        "Submarine Structure",
+                        "Underwater Robotics"
+                    ]
+                },
+                {
+                    "keyword": "Advanced Composites",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Fiber-Reinforced Polymers",
+                        "Marine Grade Composites",
+                        "High-Performance Materials"
+                    ]
+                },
+                {
+                    "keyword": "Seawater Corrosion",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Marine Corrosion",
+                        "Saltwater Degradation",
+                        "Ocean Environment Effects"
+                    ]
+                },
+                {
+                    "keyword": "Manufacturing Techniques",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Production Methods",
+                        "Fabrication Processes",
+                        "Construction Technologies"
+                    ]
+                },
+                {
+                    "keyword": "Durable Coatings",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Protective Layers",
+                        "Corrosion-Resistant Coatings",
+                        "Surface Treatments"
+                    ]
+                },
+                {
+                    "keyword": "Propeller Design",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "AUV Propulsion",
+                        "Underwater Thrusters",
+                        "Marine Propellers"
+                    ]
+                },
+                {
+                    "keyword": "Sensors and Instrumentation",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Underwater Sensing",
+                        "Oceanographic Instruments",
+                        "Subsea Monitoring"
+                    ]
+                },
+                {
+                    "keyword": "Materials Selection",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Material Properties",
+                        "Selection Criteria",
+                        "Design for Corrosion Resistance"
+                    ]
+                },
+                {
+                    "keyword": "Underwater Welding",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Hyperbaric Welding",
+                        "Wet Welding",
+                        "Submerged Arc Welding"
+                    ]
+                },
+                {
+                    "keyword": "Marine Grade Steel",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Offshore Steels",
+                        "Shipbuilding Materials",
+                        "Seawater-Resistant Alloys"
+                    ]
+                },
+                {
+                    "keyword": "Non-Destructive Testing",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "NDT Methods",
+                        "Inspection Techniques",
+                        "Condition Monitoring"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Autonomous Systems",
+            "description": "Design and development of autonomous systems, including planning, decision-making algorithms, software, and hardware.",
+            "children": [
+                "Navigation & Control Systems",
+                "Communication Systems"
+            ],
+            "parents": [
+                "Artificial Intelligence",
+                "Computer Vision"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Robotics",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Autonomous Robotics",
+                        "Robotic Systems"
+                    ]
+                },
+                {
+                    "keyword": "Planning Algorithms",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Motion Planning",
+                        "Task Planning"
+                    ]
+                },
+                {
+                    "keyword": "Decision-Making",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Autonomous Decision Making",
+                        "Self-Driving Cars"
+                    ]
+                },
+                {
+                    "keyword": "Sensor Fusion",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Multi-Sensor Fusion",
+                        "Data Fusion"
+                    ]
+                },
+                {
+                    "keyword": "Computer Vision",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Object Recognition",
+                        "Image Processing"
+                    ]
+                },
+                {
+                    "keyword": "Navigation Systems",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Localization",
+                        "Mapping"
+                    ]
+                },
+                {
+                    "keyword": "Control Systems",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Stability Control",
+                        "Trajectory Control"
+                    ]
+                },
+                {
+                    "keyword": "Machine Learning",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Deep Learning",
+                        "Reinforcement Learning"
+                    ]
+                },
+                {
+                    "keyword": "Artificial Intelligence",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "AI Systems",
+                        "Intelligent Systems"
+                    ]
+                },
+                {
+                    "keyword": "Autonomous Vehicles",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Self-Driving Cars",
+                        "Driverless Cars"
+                    ]
+                },
+                {
+                    "keyword": "Real-Time Systems",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Embedded Systems",
+                        "Real-Time Operating Systems"
+                    ]
+                },
+                {
+                    "keyword": "Distributed Systems",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Decentralized Systems",
+                        "Networked Control Systems"
+                    ]
+                },
+                {
+                    "keyword": "Software Development",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Autonomous Software",
+                        "Robotics Programming "
+                    ]
+                },
+                {
+                    "keyword": "Human-Machine Interface",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "HMI",
+                        "User Experience Design "
+                    ]
+                },
+                {
+                    "keyword": "Cyber-Physical Systems",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "CPS",
+                        "Autonomous Cyber-Physical Systems"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Underwater Robotics",
+            "description": "Knowledge required for the design, development, and operation of underwater robots, including robot architecture, control systems, and safety protocols.",
+            "children": [
+                "Sensors & Perception",
+                "Power & Energy"
+            ],
+            "parents": [
+                "Mechanical Engineering",
+                "Electrical Engineering"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Autonomous Underwater Vehicles",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Underwater Drones",
+                        " Submarine Robots"
+                    ]
+                },
+                {
+                    "keyword": "Robot Architecture",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Robot Design",
+                        " Mechanical Structure"
+                    ]
+                },
+                {
+                    "keyword": "Control Systems",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Navigation Systems",
+                        " Autonomous Control"
+                    ]
+                },
+                {
+                    "keyword": "Sensors & Perception",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Sensor Suites",
+                        " Underwater Sensing"
+                    ]
+                },
+                {
+                    "keyword": "Power & Energy",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Battery Management",
+                        " Power Generation"
+                    ]
+                },
+                {
+                    "keyword": "Artificial Intelligence",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Machine Learning",
+                        " AI in Robotics"
+                    ]
+                },
+                {
+                    "keyword": "Mechanical Engineering",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Robot Mechanics",
+                        " Mechantronics"
+                    ]
+                },
+                {
+                    "keyword": "Electrical Engineering",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Electronic Systems",
+                        " Electrical Control"
+                    ]
+                },
+                {
+                    "keyword": "Safety Protocols",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Risk Management",
+                        " Emergency Response"
+                    ]
+                },
+                {
+                    "keyword": "Navigation Algorithms",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Path Planning",
+                        " Route Optimization"
+                    ]
+                },
+                {
+                    "keyword": "Underwater Communication",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Acoustic Communication",
+                        " Wireless Transmission "
+                    ]
+                },
+                {
+                    "keyword": "Propulsion Systems",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Thruster Design",
+                        " Underwater Locomotion "
+                    ]
+                },
+                {
+                    "keyword": "Manipulator Systems",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Robotic Arms",
+                        " Gripper Design"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Artificial Intelligence",
+            "description": "Knowledge required for the development of AI algorithms, including planning, decision-making, and computer vision.",
+            "children": [
+                "Autonomous Systems",
+                "Computer Vision"
+            ],
+            "parents": [
+                "Mathematics",
+                "Statistics"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Deep Learning",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Neural Networks",
+                        "Machine Learning"
+                    ]
+                },
+                {
+                    "keyword": "Computer Vision",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Object Recognition",
+                        "Image Processing"
+                    ]
+                },
+                {
+                    "keyword": "Planning Algorithms",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Decision-Making",
+                        "Problem-Solving"
+                    ]
+                },
+                {
+                    "keyword": "Machine Learning",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Predictive Modeling",
+                        "Data Mining"
+                    ]
+                },
+                {
+                    "keyword": "Natural Language Processing",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Text Analysis",
+                        "Sentiment Analysis"
+                    ]
+                },
+                {
+                    "keyword": "Autonomous Systems",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Robotics",
+                        "Self-Driving Cars"
+                    ]
+                },
+                {
+                    "keyword": "Robotics",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Control Systems",
+                        "Mechatronics"
+                    ]
+                },
+                {
+                    "keyword": "Neural Networks",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Artificial Neural Networks",
+                        "ANN"
+                    ]
+                },
+                {
+                    "keyword": "Decision Trees",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Classification Algorithms",
+                        "Regression Analysis"
+                    ]
+                },
+                {
+                    "keyword": "Optimization Techniques",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Linear Programming",
+                        "Dynamic Programming"
+                    ]
+                },
+                {
+                    "keyword": "Pattern Recognition",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Supervised Learning",
+                        "Unsupervised Learning "
+                    ]
+                },
+                {
+                    "keyword": "Model-Based Reasoning",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Knowledge Representation",
+                        "Expert Systems"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Computer Vision",
+            "description": "Knowledge required for image processing, feature extraction, and object recognition algorithms for autonomous navigation and object detection.",
+            "children": [
+                "Artificial Intelligence",
+                "Robotics"
+            ],
+            "parents": [
+                "Mathematics",
+                "Signal Processing"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Object Recognition",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Object Detection",
+                        " Image Classification"
+                    ]
+                },
+                {
+                    "keyword": "Image Processing",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Computer Vision",
+                        " Digital Image Processing"
+                    ]
+                },
+                {
+                    "keyword": "Feature Extraction",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Feature Engineering",
+                        " Pattern Recognition"
+                    ]
+                },
+                {
+                    "keyword": "Autonomous Navigation",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Self-Driving Cars",
+                        " Robotics Navigation"
+                    ]
+                },
+                {
+                    "keyword": "Convolutional Neural Networks",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "CNN",
+                        " Deep Learning"
+                    ]
+                },
+                {
+                    "keyword": "Machine Learning",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Artificial Intelligence",
+                        " ML"
+                    ]
+                },
+                {
+                    "keyword": "Signal Processing",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Image Filtering",
+                        " Signal Analysis"
+                    ]
+                },
+                {
+                    "keyword": "Mathematics",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Linear Algebra",
+                        " Calculus"
+                    ]
+                },
+                {
+                    "keyword": "Deep Learning",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Neural Networks",
+                        " AI"
+                    ]
+                },
+                {
+                    "keyword": "Computer Vision Algorithms",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Image Analysis",
+                        " Visual Perception"
+                    ]
+                },
+                {
+                    "keyword": "Pattern Recognition",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Image Classification",
+                        " Object Categorization"
+                    ]
+                },
+                {
+                    "keyword": "Robotics",
+                    "relevance": "5",
+                    "alternative_wording": [
+                        "Autonomous Systems",
+                        " Mechatronics "
+                    ]
+                },
+                {
+                    "keyword": "Image Segmentation",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Scene Understanding",
+                        " Object Boundary Detection"
+                    ]
+                },
+                {
+                    "keyword": "Visual Odometry",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "3D Reconstruction",
+                        " Structure from Motion"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Robotics",
+            "description": "Knowledge required for the design, development, and operation of robots, including robot architecture, control systems, and safety protocols.",
+            "children": [],
+            "parents": [
+                "Mechanical Engineering",
+                "Electrical Engineering"
+            ],
+            "kwds": [
+                {
+                    "keyword": "Robotics",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Robots",
+                        "Robotics Engineering",
+                        "Mechatronics"
+                    ]
+                },
+                {
+                    "keyword": "Artificial Intelligence",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "AI",
+                        "Machine Learning",
+                        "Deep Learning"
+                    ]
+                },
+                {
+                    "keyword": "Control Systems",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Control Theory",
+                        "Automation",
+                        "Regulation"
+                    ]
+                },
+                {
+                    "keyword": "Robot Architecture",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Robot Design",
+                        "Mechanical Design",
+                        "Kinematics"
+                    ]
+                },
+                {
+                    "keyword": "Safety Protocols",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Risk Assessment",
+                        "Hazard Analysis",
+                        "Reliability Engineering"
+                    ]
+                },
+                {
+                    "keyword": "Sensors and Actuators",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Sensor Technology",
+                        "Actuator Systems",
+                        "Measuring Instruments"
+                    ]
+                },
+                {
+                    "keyword": "Human-Robot Interaction",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "HRI",
+                        "Human-Machine Interface",
+                        "User Experience"
+                    ]
+                },
+                {
+                    "keyword": "Computer Vision",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Image Processing",
+                        "Machine Vision",
+                        "Object Recognition"
+                    ]
+                },
+                {
+                    "keyword": "Navigation and Localization",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Robot Navigation",
+                        "SLAM",
+                        "Mapping Algorithms"
+                    ]
+                },
+                {
+                    "keyword": "Mechatronics",
+                    "relevance": "1",
+                    "alternative_wording": [
+                        "Electromechanical Engineering",
+                        "Robotics Engineering",
+                        "Automation Engineering"
+                    ]
+                },
+                {
+                    "keyword": "Autonomous Systems",
+                    "relevance": "2",
+                    "alternative_wording": [
+                        "Autonomy",
+                        "Self-Driving Cars",
+                        "Unmanned Vehicles "
+                    ]
+                },
+                {
+                    "keyword": "Humanoid Robots",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Bipedal Robots",
+                        "Androids",
+                        "Social Robots"
+                    ]
+                },
+                {
+                    "keyword": " Swarm Robotics",
+                    "relevance": "4",
+                    "alternative_wording": [
+                        "Swarm Intelligence",
+                        "Collective Behavior",
+                        "Distributed Systems "
+                    ]
+                },
+                {
+                    "keyword": "Robot Learning",
+                    "relevance": "3",
+                    "alternative_wording": [
+                        "Learning Algorithms",
+                        "Adaptive Control",
+                        "Reinforcement Learning"
+                    ]
+                }
+            ]
+        }
+    ]
+}
